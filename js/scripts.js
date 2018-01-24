@@ -52,16 +52,20 @@ function playerTurn(square){
     if ( player_one == 1 ){
       var x = document.getElementById(square).value;
       document.getElementById(square).innerText = "X";
+      $(".player1").hide();
+      $(".player2").show();
       player_one = 0;
     } else {
         var x = document.getElementById(square).value;
         document.getElementById(square).innerText = "O";
+        $(".player1").show();
+        $(".player2").hide();
         player_one = 1;
     }
 }
 
 
 $(document).ready(function() {
-
+  var player_one = 1;
 
 });

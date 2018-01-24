@@ -14,7 +14,7 @@ h1{
 
 
 table, td {
-    border: 5px groove;
+    border: 2px solid black;
     border-collapse: collapse;
     padding: 5px;
     text-align: left;
@@ -22,4 +22,16 @@ table, td {
     width: 90px;
     text-align: center;
     font-size: 85px;
+}
+
+.player2{
+  display: none;
+
+}
+
+p{
+  text-align: center;
+  font-size: 50px;
+
+
 }
